@@ -1,0 +1,233 @@
+.background {
+  background-image: url(./images/bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+} 
+
+.hamburger {
+  font-size: 2rem;
+}
+
+.GiChecklist {
+  font-size: 2.5rem;
+}
+
+.BsTelephoneFill {
+  font-size: 1.4rem;
+}
+
+.topline {
+  letter-spacing: 0.5rem;
+}
+
+.bottomline {
+  font-size: 6rem;
+  /* font-size: 96px; */
+}
+
+.bottomline span {
+  font-size: 1rem;
+}
+
+.center {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.main-circle {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 7px;
+  margin: auto;
+}
+
+.rounded-circle {
+  width: 5rem;
+  height: 5rem;
+}
+
+@media only screen and (max-width: 1399px) {
+
+  .nav-item a {
+    font-size: 0.9rem;
+  }
+
+  .nav-item button {
+    font-size: 0.9rem;
+  }
+
+  .bottomline {
+    font-size: 4rem;
+  }
+
+  .topline {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+
+  .nav-item a {
+    font-size: 0.8rem;
+  }
+
+  .nav-item button {
+    font-size: 0.8rem;
+  }
+
+  .hamburger {
+    font-size: 2rem;
+  }
+
+  .GiChecklist {
+    font-size: 2rem;
+    /* margin-bottom: 1rem; */
+  }
+
+  .BsTelephoneFill {
+    font-size: 1rem;
+    /* margin-bottom: 0.7rem; */
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .nav-item a {
+    font-size: 0.7rem;
+  }
+
+  .nav-item button {
+    font-size: 0.7rem;
+  }
+
+  .hamburger {
+    font-size: 2rem;
+  }
+
+  .GiChecklist {
+    font-size: 2rem;
+  }
+
+  .BsTelephoneFill {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .navbar-collapse {
+    background-color: #343a40;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    opacity: 0.7;
+    padding: 1rem;
+  }
+
+  .bottomline {
+    font-size: 3rem;
+  }
+
+  .topline {
+    font-size: 0.7rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .hamburger {
+    font-size: 2rem;
+  }
+
+  .GiChecklist {
+    font-size: 2.5rem;
+  }
+
+  .BsTelephoneFill {
+    font-size: 1.5rem;
+  }
+
+  .nav-item a {
+    font-size: 0.8rem;
+  }
+
+  .nav-item button {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 661px) {
+
+  .bottomline {
+    font-size: 2rem;
+  }
+
+  .topline {
+    font-size: 0.5rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .bottomline span {
+    font-size: 0.6rem;
+  }
+
+  .hamburger {
+    font-size: 1.5rem;
+  }
+
+  .GiChecklist {
+    font-size: 2rem;
+  }
+
+  .BsTelephoneFill {
+    font-size: 1rem;
+  }
+
+  .main-circle {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .rounded-circle {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+
+  .bottomline {
+    font-size: 1.7rem;
+  }
+
+  .topline {
+    font-size: 0.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .bottomline span {
+    font-size: 0.4rem;
+  }
+
+  .hamburger {
+    font-size: 1.2rem;
+  }
+
+  .GiChecklist {
+    font-size: 1.5rem;
+  }
+
+  .BsTelephoneFill {
+    font-size: 0.9rem;
+  }
+
+  .main-circle {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .rounded-circle {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
